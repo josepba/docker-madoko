@@ -1,0 +1,30 @@
+{
+  "name": "dmadoko",
+  "version": "1.0.0",
+  "description": "Script to launch madoko cli from within a docker container",
+  "main": "index.js",
+  "bin": {
+    "dmadoko": "./dmadoko.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepba/docker-madoko.git"
+  },
+  "keywords": [
+    "madoko",
+    "tex"
+  ],
+  "preferGlobal": true,
+  "files": [
+    "dmadoko.sh"
+  ],
+  "author": "Jose Bernabeu",
+  "licenses": [{
+    "type"      : "Apache License 2.0", 
+    "url"       : "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }],
+  "bugs": {
+    "url": "https://github.com/josepba/docker-madoko/issues"
+  },
+  "homepage": "https://github.com/josepba/docker-madoko#readme"
+}
